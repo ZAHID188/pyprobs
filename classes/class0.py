@@ -1,5 +1,6 @@
 # Imagine its a flight booking overflow class
 class Flight():
+    #remember to put spaces in python . for examples- def __
     def __init__(self,capacit):
         self.capacitys=capacit
         self.passengers=[]
@@ -13,7 +14,7 @@ class Flight():
 
     def open_seats(self):
         return self.capacitys - len(self.passengers)
-flight= Flight(4)
+flight= Flight(2)
 people = ["Harry","Ron","Hermoine","zahid","raihan"]
 for person in people:
     success= flight.add_passenger(person)
