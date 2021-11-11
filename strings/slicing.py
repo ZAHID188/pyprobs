@@ -10,3 +10,9 @@ print("name[:3]  ==",name[:3])
 print("name[3:]  ==",name[3:])
 print("name[:]  ==",name[:])
 
+# data1="this is my email zahidprantakg@gmail.com connect with me"
+# posat=data1.find('@')
+# print(posat)
+# data2=data1[posat:]
+# print(data2)
+
