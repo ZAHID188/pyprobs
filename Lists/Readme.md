@@ -1,6 +1,7 @@
 >''' input :   cheseses= ['Cheddar', 'Edam', 'Gouda']
 >              numbers = [123,23,34,343,234,234,123]
->Output::
+>
+>    Output::
 >               ['Cheddar', 'Edam', 'Gouda','[123,23,34,343,234,234,123]']
 >               []
 >               [['zahid', 123, 455, '123123zahid', 12.33]]
@@ -9,20 +10,20 @@
 > '''
 
 
-cheseses= ['Cheddar', 'Edam', 'Gouda']
-numbers = [123,23,34,343,234,234,123]
-
-
-for i in range(len(cheseses)):
-    if cheseses[i]=="Edam":
-        cheseses.append(numbers)
-
-print(cheseses)
-del cheseses[0:]
-print(cheseses)
-num=["zahid",123,455,"123123zahid",12.33]
-cheseses.append(num)
-print(cheseses)
+<br>cheseses= ['Cheddar', 'Edam', 'Gouda']   
+<br>numbers = [123,23,34,343,234,234,123]
+<br>
+<br>
+<br>for i in range(len(cheseses)):
+<br>    if cheseses[i]=="Edam":
+<br>        cheseses.append(numbers)
+<br>
+<br>print(cheseses)
+<br>del cheseses[0:]
+<br>print(cheseses)
+<br>num=["zahid",123,455,"123123zahid",12.33]
+<br>cheseses.append(num)
+<br>print(cheseses)
 
 
 
