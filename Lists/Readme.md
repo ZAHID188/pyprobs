@@ -1,5 +1,11 @@
 ```
 
+There are four collection data types in the Python programming language:
+1. List is a collection which is ordered and changeable. ...
+2. Tuple is a collection which is ordered and unchangeable. ...
+3. Set is a collection which is unordered, unchangeable*, and unindexed. ...
+4. Dictionary is a collection which is ordered** and changeable.
+
 ''' input :   cheseses= ['Cheddar', 'Edam', 'Gouda']
               numbers = [123,23,34,343,234,234,123]
 Output::
