@@ -1,12 +1,12 @@
-''' input :   cheseses= ['Cheddar', 'Edam', 'Gouda']
-              numbers = [123,23,34,343,234,234,123]
-Output::
-               ['Cheddar', 'Edam', 'Gouda','[123,23,34,343,234,234,123]']
-               []
-               [['zahid', 123, 455, '123123zahid', 12.33]]
-
-            
- '''
+>''' input :   cheseses= ['Cheddar', 'Edam', 'Gouda']
+>              numbers = [123,23,34,343,234,234,123]
+>Output::
+>               ['Cheddar', 'Edam', 'Gouda','[123,23,34,343,234,234,123]']
+>               []
+>               [['zahid', 123, 455, '123123zahid', 12.33]]
+>
+>            
+> '''
 
 
 cheseses= ['Cheddar', 'Edam', 'Gouda']
