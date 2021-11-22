@@ -10,3 +10,5 @@ print(name[0])
 
 namealls = ["harry","james","zahid"]
 print(namealls[2])
+
+print("Git updated")
