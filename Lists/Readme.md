@@ -6,6 +6,13 @@ There are four collection data types in the Python programming language:
 3. Set is a collection which is unordered, unchangeable*, and unindexed. ...
 4. Dictionary is a collection which is ordered** and changeable.
 
+
+What are the Python keywords used to construct a loop to iterate through a list?
+
+  > foreach / in
+
+<h1>problems<h1>
+
 ''' input :   cheseses= ['Cheddar', 'Edam', 'Gouda']
               numbers = [123,23,34,343,234,234,123]
 Output::
