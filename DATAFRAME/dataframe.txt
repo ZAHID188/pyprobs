@@ -1,0 +1,23 @@
+data = {'name': ['Wangdachui', 'Linling', 'Niuyun'], 'pay': [4000, 5000, 6000]}
+frame = pd.DataFrame(data)
+print(frame)
+
+
+
+#2
+
+data = np.array([('Wangdachui', 4000), ('Linling', 5000), ('Niuyun', 6000)])
+frame =pd.DataFrame(data, index = range(1, 4), columns = ['name', 'pay'])
+
+#3
+frame.index
+frame['name']
+
+frame.pay
+
+frame.iloc[ : 2, 1]
+
+frame['name'] = 'admin'
+del frame['pay']
+frame.pay.min()
+frame[frame.pay >= '5000']
