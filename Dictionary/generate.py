@@ -4,13 +4,13 @@ Input:
 
 output:          
 '''
-import requests
-kw={'q':'python dic'}
-r=requests.get("http://cn.bing.com/search",params=kw)
+# import requests
+# kw={'q':'python dic'}
+# r=requests.get("http://cn.bing.com/search",params=kw)
 
-r.url
-# print(r.text)
-print(r.url)
+# r.url
+# # print(r.text)
+# print(r.url)
 
 
 
@@ -59,14 +59,14 @@ output:
 ''' 
 Input:     info={"zahid":"3000","shorif":"2000","rayhan":"5000"}
 
-output:          zahid 3000
-                 shorif 2000
-                 rayhan 5000
+output:          zahid 9000
+                 shorif 4000
+                 rayhan 7000
 '''
-# info={"zahid":"3000","shorif":"2000","rayhan":"5000"}
-# binfo={"zahid":"9000","shorif":"4000","rayhan":"7000"}
-# info.update(binfo)
-# print(info)
+info={"zahid":"3000","shorif":"2000","rayhan":"5000"}
+binfo={"zahid":"9000","shorif":"4000","rayhan":"7000"}
+info.update(binfo)
+print(info)
 
 
 
