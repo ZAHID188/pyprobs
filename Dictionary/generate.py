@@ -63,10 +63,10 @@ output:          zahid 9000
                  shorif 4000
                  rayhan 7000
 '''
-info={"zahid":"3000","shorif":"2000","rayhan":"5000"}
-binfo={"zahid":"9000","shorif":"4000","rayhan":"7000"}
-info.update(binfo)
-print(info)
+# info={"zahid":"3000","shorif":"2000","rayhan":"5000"}
+# binfo={"zahid":"9000","shorif":"4000","rayhan":"7000"}
+# info.update(binfo)
+# print(info)
 
 
 
@@ -84,13 +84,13 @@ output:          zahid 3000
                  shorif 2000
                  rayhan 5000
 '''
-# info={"zahid":"3000","shorif":"2000","rayhan":"5000"}
-# print(info)
-# print(info.keys())
-# print(info.values())
+info={"zahid":"3000","shorif":"2000","rayhan":"5000"}
+print(info)
+print(info.keys())
+print(info.values())
 
-# for k,v in info.items():
-#     print(k,v)
+for k,v in info.items():
+    print(k,v)
 
 
 

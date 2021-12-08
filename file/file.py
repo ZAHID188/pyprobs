@@ -3,9 +3,9 @@ f1.write("hello zahid")
 f1.close()
 
 
-with open('hello3.txt','w') as f:
-    f.write("zahid are you there")
-    f.close()
+# with open('hello3.txt','w') as f:
+#     f.write("zahid are you there")
+#     f.close()
 
 
 # IN command promt use this format

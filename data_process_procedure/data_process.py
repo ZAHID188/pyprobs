@@ -1,3 +1,109 @@
+
+'''
+Input = CSV file 
+
+output::     
+         Series_reference   Period  Data_value STATUS    UNITS  ...         Series_title_1 Series_title_2 Series_title_3 Series_title_4 Series_title_5
+0         GFSA.SCS01G01Z90  2009.06        2903  FINAL  Dollars  ...  Net operating balance            NaN            NaN            NaN            NaN
+1         GFSA.SCS01G01Z90  2010.06       -3564  FINAL  Dollars  ...  Net operating balance            NaN            NaN            NaN            NaN
+2         GFSA.SCS01G01Z90  2011.06      -13093  FINAL  Dollars  ...  Net operating balance            NaN            NaN            NaN            NaN
+
+'''
+
+# import pandas as pd
+# quotesdf=pd.read_csv('axp1.csv')
+# print(quotesdf)
+
+
+
+
+
+'''
+Input = CSV file name example --axp1.csv
+
+output::     store in another csv file with new file. -- check the new file with given name stocks.csv
+'''
+
+# import pandas as pd
+# def retrieve_quotes_historical(x):
+#     text1=pd.read_csv(x)
+#     return text1
+# quotes=retrieve_quotes_historical('axp1.csv')
+# df=pd.DataFrame(quotes)
+# df.to_csv("stocks.csv")
+
+
+
+'''
+Input = CSV file --axp1.csv
+
+output::     to excel stocksaxp1.xlsx
+'''
+
+# import pandas as pd
+# def retrieve_quotes_historical(x):
+#     text1=pd.read_csv(x)
+#     return text1
+# quotes=retrieve_quotes_historical('axp1.csv')
+# df=pd.DataFrame(quotes)
+# df.to_excel("stocksaxp1.xlsx",sheet_name='axp1.csv')
+
+
+
+
+
+'''
+Input = CSV file excel stocksaxp1.xlsx
+
+output::    
+period
+2011.06      BDCQ.SEA1AA
+2011.09      BDCQ.SEA1AA
+2011.12      BDCQ.SEA1AA
+2012.03      BDCQ.SEA1AA
+'''
+
+# import pandas as pd
+# df=pd.read_excel("employ_data.xlsx",index_col="Period")
+# print(df.isnull())
+# print(df.dropna())
+# print(df.fillna())
+# df.fillna(method='ffill')
+# df.fillna(method='bfill')
+# df.fillna(df.mean(),inplace=True)
+# df.dropna(how='any')
+# df.dropna(how='all')
+
+'''
+Input = excel to
+
+output::    csv
+
+'''
+# import pandas as pd
+# df=pd.read_excel("datasheet.xlsx")
+# df.to_csv("userinfo.csv",index="0",header=True)
+# print(df)
+
+
+
+
+
+'''
+Input = web ASP
+
+
+'''
+
+
+# f1.head(5)
+# print(f1)
+# print("********************")
+# print(f2.columns)
+
+
+
+
 '''
 Fetch Data with Python 
 
@@ -15,15 +121,6 @@ Fetch Data with Python
 
 
 
-
-
-'''
-
-'''
-
-# import pandas as pd
-# quotesdf=pd.read_csv('axp1.csv')
-# print(quotesdf)
 
 '''
 
@@ -212,3 +309,49 @@ pre-processing   ->
                     4.data reduction
 '''
 
+'''
+graph subplots <<<
+
+ Data_value     Magnitude  Series_title_4  Series_title_5
+count  1.870600e+04  18706.000000             0.0             0.0
+mean   6.087086e+04      2.426494             NaN             NaN
+std    1.612277e+05      2.944750  
+
+'''
+# import pandas as pd
+# df=pd.read_excel("employ_data.xlsx",index_col="Period")
+# df.describe()
+
+'''
+input <<<
+
+ {'data': array([[6.3200e-03, 1.8000e+01, 2.3100e+00, ..., 1.5300e+01, 3.9690e+02,
+        4.9800e+00],
+       [2.7310e-02, 0.0000e+00, 7.0700e+00, ..., 1.7800e+01, 3.9690e+02, 
+
+'''
+# from sklearn import datasets
+# import pandas as pd
+# bs=datasets.load_boston()
+# df=pd.DataFrame(bs.data[:,4:7])
+
+
+
+'''
+Z score normalization
+'''
+# import pandas as pd
+# from sklearn import datasets
+# df=pd.read_csv("userinfo.csv")
+# (df-df.mean())/df.std()
+
+
+
+'''
+Discretization of continious features
+'''
+import pandas as pd
+from sklearn import datasets
+import numpy as np
+# df=pd.read_csv("userinfo.csv")
+# (df-df.mean())/df.std()
