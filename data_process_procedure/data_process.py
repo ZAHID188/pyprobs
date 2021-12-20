@@ -147,11 +147,11 @@ graph
 
 
 '''
-# import matplotlib.pyplot as plt
-# plt.plot([3,4,7,6,2,8,9])
-# plt.plot(range(7),[3,4,7,6,2,8,9])
-# plt.show()
-# plt
+import matplotlib.pyplot as plt
+plt.plot([3,4,7,6,2,8,9])
+plt.plot(range(7),[3,4,7,6,2,8,9])
+plt.show()
+
 
 
 '''

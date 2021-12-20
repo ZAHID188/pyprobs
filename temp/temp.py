@@ -116,3 +116,9 @@ email bmalet@yahoo.com
 
    
 
+# mak=['From', 'stephen.marquard@uct.ac.za', 'Fri', 'Jan', '4', '04:07:34', '2008']
+# mak2=['From:', 'gopal.ramasammycook@gmail.com']
+# print(len(mak2))
+
+stuff = dict()
+print(stuff.get('candy',4))
