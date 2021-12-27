@@ -1,3 +1,5 @@
+```
+
 '''
 input:75% quantile
       25% quantile
@@ -98,3 +100,4 @@ max        7.900000
 # print(x.median())
 # print(x.describe())
 
+```
