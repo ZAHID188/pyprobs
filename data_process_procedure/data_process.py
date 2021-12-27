@@ -115,7 +115,23 @@ Fetch Data with Python
 
 # def retrive_quote_hitory(stock_code):
 #     quotes=[]
-#     url='https://finance.yahoo.com/quote/%s/history'
+#     url='https://finance.yahoo.com/quote/%s/history?p=%s'%(stock_code,stock_code)
+
+#     try:
+#            r=requests.get(url)
+#     except ConnectionError as err:
+#            print(err)
+#     m=re.findall('"HistoricalPriceStore":{"prices":(.*?),"isPending"',r.text)
+#     if m:
+#            quotes=json.loads(m[0])
+#            quotes=quotes[::-1]
+#     return [item for item in quotes if 'type' not in item]
+
+# quote=retrive_quote_hitory('AXP')
+# x=pd.DataFrame(quote)
+# # y=x.drop(['High'],axis=1)
+# print(x)
+
 
 
 
@@ -147,10 +163,10 @@ graph
 
 
 '''
-import matplotlib.pyplot as plt
-plt.plot([3,4,7,6,2,8,9])
-plt.plot(range(7),[3,4,7,6,2,8,9])
-plt.show()
+# import matplotlib.pyplot as plt
+# plt.plot([3,4,7,6,2,8,9])
+# plt.plot(range(7),[3,4,7,6,2,8,9])
+# plt.show()
 
 
 
@@ -349,9 +365,9 @@ Z score normalization
 
 '''
 Discretization of continious features
-'''
-import pandas as pd
-from sklearn import datasets
-import numpy as np
+# '''
+# import pandas as pd
+# from sklearn import datasets
+# import numpy as np
 # df=pd.read_csv("userinfo.csv")
 # (df-df.mean())/df.std()

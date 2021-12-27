@@ -120,5 +120,16 @@ email bmalet@yahoo.com
 # mak2=['From:', 'gopal.ramasammycook@gmail.com']
 # print(len(mak2))
 
-stuff = dict()
-print(stuff.get('candy',4))
+# stuff = dict()
+# print(stuff.get('candy',4))
+
+
+
+import pandas as pd
+import matplotlib.pyplot as plt
+scores = pd.read_excel('score.xlsx')
+x=scores.boxplot(color="r")
+# x=scores.iloc[1:2]
+# x=scores.English
+# print(x)
+# plt.show()
