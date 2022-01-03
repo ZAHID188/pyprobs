@@ -44,6 +44,24 @@ for s in range(0,people):
     x=z-s
     sum=sum+x
     
-    print("taka :",x)
+    print("taka :",s,"-",x)
 print("total:",sum)
 
+
+
+
+# 27.77
+# 10
+
+# 1-10
+# 2-5
+# 3-3.33
+# 4-2.5
+# 5-2
+# 6-1.66
+# 7-1.42
+# 8-1.25
+# 9-1.11
+# 10-1
+
+# 27.77
