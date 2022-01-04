@@ -1,3 +1,4 @@
+```
 # Which of the following is the order of applying 
 # object-oriented concept in programming
 
@@ -867,3 +868,4 @@ Python supports augmented assignment operators like“+=” and “%=”.
 # b = 3
 # a %= b
 # print('Remainder or Modulo = %d' %(a))
+```
