@@ -12,6 +12,95 @@ If you are passing a sequence as an argument to a function, using tuples reduces
 
 
 '''
+Exercise 2: This program counts the distribution of
+the hour of the day for each of the messages.
+You can pull the hour from the “From” line by finding
+the time string and then splitting that string into parts
+using the colon character. Once you have accumulated the
+counts for each hour, print out the counts, one per line,
+sorted by hour as shown below.
+
+'''
+
+# fhand=open('mbox-short.txt')
+# d0={}
+# for line in fhand:
+#   ref_line=line.rstrip()
+#   if '@' in ref_line:
+#     if ref_line.startswith('From'):
+#       words=ref_line.split()
+#       for word in words:
+#         if ":" in word and "From" not in word:
+
+#           if word[0:2] not in d0:
+#             d0[word[0:2]]=1
+#           else:
+#             d0[word[0:2]] += 1
+# print(d0)
+
+# for (k,v) in (sorted([(k,v) for k,v in d0.items()])):
+#   print(k,v)
+# # if don't understand this two line comment avobe 2 line and 
+# # comment out down below
+
+# lst=[]
+# for (k,v) in d0.items():
+#   lst.append((k,v))
+
+# lst.sort()
+# for (k,v) in lst:
+#   print(k,v)
+   
+
+
+
+
+'''
+Exercise 1: Revise a previous program as follows: 
+Read and parse the “From” lines and pull out the addresses
+from the line.
+Count the number of messages from each person using a dictionary.
+
+After all the data has been read,
+print the person with the most commits by creating
+a list of (count, email) tuples from the dictionary. 
+hen sort the list in reverse order and print out the 
+person who has the most commits.
+
+'''
+
+# fhand=open('mbox-short.txt')
+# d0={}
+# for line in fhand:
+#   ref_line=line.rstrip()
+#   if '@' in ref_line:
+#     if ref_line.startswith('From'):
+#       d=ref_line.split()
+#       # print(d[1])
+#       if d[1] not in d0:
+#         d0[d[1]]=1
+#       else:
+#         d0[d[1]] += 1
+# # print(d0)
+# # --------- list part
+# lst=[]
+# for (k,v) in d0.items():
+#   lst.append((v,k))
+
+# lst.sort(reverse=True)
+# for (k,v) in lst:
+#   print(v,k)
+   
+
+#2 same thing with one line
+#  ---- anoteher short method  just comment out the from list part to the rest part  
+
+# print(sorted([(v,k) for k,v in d0.items()],reverse=True))
+
+
+
+
+'''
 dictionary items are tuple
 '''
 
