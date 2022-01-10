@@ -180,3 +180,26 @@ output:  {'zahid': 3000, 'shofiq': 2000, 'rofiq': 4500}
 # salaries=[3000,2000,4500]
 # x=dict(zip(names,salaries))
 # print(x)
+
+
+
+'''
+#6
+Variable Length Keyword Parameter
+Parameter type in Python
+function:
+• Position or keyword
+parameter
+• Only position parameter
+• Variable Length Position
+Parameter
+• Variable length keyword
+parameter with default value
+'''
+
+def func(args1, *argst, **argsd):
+    print(args1)
+    print(argst)
+    print(argsd)
+print(func('Hello,','Wangdachui','Niuyun','Linling',a1= 1,a2=2,a3=3))
+

@@ -10,9 +10,9 @@ output::
 
 '''
 
-# import pandas as pd
-# quotesdf=pd.read_csv('axp1.csv')
-# print(quotesdf)
+import pandas as pd
+quotesdf=pd.read_csv('axp1.csv')
+print(quotesdf)
 
 
 
@@ -71,6 +71,7 @@ period
 # df.fillna(method='ffill')
 # df.fillna(method='bfill')
 # df.fillna(df.mean(),inplace=True)
+# print(df)
 # df.dropna(how='any')
 # df.dropna(how='all')
 

@@ -125,12 +125,12 @@ email bmalet@yahoo.com
 
 
 
-import pandas as pd
-import matplotlib.pyplot as plt
-scores = pd.read_excel('score.xlsx')
-x=scores.boxplot(color="r")
-print(scores)
-plt.show()
+# import pandas as pd
+# import matplotlib.pyplot as plt
+# scores = pd.read_excel('score.xlsx')
+# x=scores.boxplot(color="r")
+# print(scores)
+# plt.show()
 # x=scores.iloc[1:2]
 # x=scores.English
 

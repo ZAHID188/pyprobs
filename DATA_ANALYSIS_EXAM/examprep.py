@@ -58,18 +58,19 @@ under the context in the question. Please fill in the first blank.'''
 ​fruits = ['apple', 'banana', 'cherry','banana', 'peach', 'pear','peach', 'cherry' ]. 
 ​Define a function to count how many times each kind of fruit is sold. 
 ​The result is expected to save in a dictionary in the form of 
-{'pear': 1, 'banana': 2, 'cherry': 2, 'peach': 2, 'apple': 1}.'''
-# d = {}
-# fruits= ['apple', 'banana', 'cherry','banana', 'peach', 'pear','peach','cherry' ]
-# fruits_set = set(fruits)
-# # print(fruits_set)
-# for item in fruits_set:
-#   d[item] = 0
-#   for i in range(len(fruits)):
-#     if item == fruits[i]:
-#       d[item] += 1
-# for item in fruits:
-#   d[item] = fruits.count(item)
+{'pear': 1, 'banana': 2, 'cherry': 2, 'peach': 2, 'apple': 1}.
+'''
+d = {}
+fruits= ['apple', 'banana', 'cherry','banana', 'peach', 'pear','peach','cherry' ]
+fruits_set = set(fruits)
+print(fruits_set)
+for item in fruits_set:
+  d[item] = 0
+  for i in range(len(fruits)):
+    if item == fruits[i]:
+      d[item] += 1
+for item in fruits:
+  d[item] = fruits.count(item)
 # print(d)
 
 
