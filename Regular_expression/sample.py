@@ -7,10 +7,10 @@ output:
     uct.ac.za
 '''
 
-import re 
-lin = 'From stephen.marquard@uct.ac.za Sat Jan  5 09:14:16 2008'
-y = re.findall('^From .*@([^ ]*)',lin)
-print(y)
+# import re 
+# lin = 'From stephen.marquard@uct.ac.za Sat Jan  5 09:14:16 2008'
+# y = re.findall('^From .*@([^ ]*)',lin)
+# print(y)
 
 
 
@@ -175,7 +175,14 @@ output:
 
 
       
-    
-      
+
+import re
+hand=open('mbox-short.txt')
+for line in hand:
+    line=line.rstrip()
+    # if re.search('^From:',line):
+    # if re.search('^X.*:',line):
+    if re.search('^X-\S+:',line):
+        print(line)
 
 
