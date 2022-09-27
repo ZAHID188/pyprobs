@@ -3,7 +3,7 @@
  input= given text file
   output=  how many words are here , how many similar word
 
-'''
+# '''
 counts=dict()   #counts={}                -same
 print("Enter line of text:")
 line=input('')
@@ -13,10 +13,6 @@ print("counting")
 for word in words:
     counts[word]=counts.get(word,0)+1
 print('counts',counts)
-
-
-
-
 
 
 

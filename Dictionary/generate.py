@@ -88,6 +88,8 @@ info={"zahid":"3000","shorif":"2000","rayhan":"5000"}
 print(info)
 print(info.keys())
 print(info.values())
+print(info.items())
+
 
 for k,v in info.items():
     print(k,v)
@@ -197,9 +199,9 @@ Parameter
 parameter with default value
 '''
 
-def func(args1, *argst, **argsd):
-    print(args1)
-    print(argst)
-    print(argsd)
-print(func('Hello,','Wangdachui','Niuyun','Linling',a1= 1,a2=2,a3=3))
+# def func(args1, *argst, **argsd):
+#     print(args1)
+#     print(argst)
+#     print(argsd)
+# print(func('Hello,','Wangdachui','Niuyun','Linling',a1= 1,a2=2,a3=3))
 

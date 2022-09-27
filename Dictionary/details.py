@@ -12,8 +12,8 @@ output:
     
 '''
 
-FOO={ }
-print(type(FOO))
+# FOO={ }
+# print(type(FOO))
 
 
 
@@ -42,13 +42,20 @@ print(type(FOO))
     number 55 : 55
 
 '''
-# print("dictionary")
-# purse=dict()
-# purse['money']=12
-# purse['candy']=3
-# purse['tissue']=55
-# print(purse)
-# print("tissue :",purse['tissue'])
+print("dictionary")
+purse=dict()
+purselist=list()
+print(purse)
+print(purselist)
+purselist.append(12)
+purse["zahid"]=3
+purse['money']=12
+purse['candy']=3
+purse['tissue']=55
+print(purse)
+print(purselist)
+
+print("tissue :",purse['tissue'])
 
 
 
