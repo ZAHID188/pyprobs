@@ -42,20 +42,20 @@ output:
     number 55 : 55
 
 '''
-print("dictionary")
-purse=dict()
-purselist=list()
-print(purse)
-print(purselist)
-purselist.append(12)
-purse["zahid"]=3
-purse['money']=12
-purse['candy']=3
-purse['tissue']=55
-print(purse)
-print(purselist)
+# print("dictionary")
+# purse=dict()
+# purselist=list()
+# print(purse)
+# print(purselist)
+# purselist.append(12)
+# purse["zahid"]=3
+# purse['money']=12
+# purse['candy']=3
+# purse['tissue']=55
+# print(purse)
+# print(purselist)
 
-print("tissue :",purse['tissue'])
+# print("tissue :",purse['tissue'])
 
 
 
@@ -90,6 +90,17 @@ print("tissue :",purse['tissue'])
 
 # purse=dict()
 # purse['money']=12
+# purse['candy']=3
+# purse['tissue']=55
+# print(purse)
+# print(purse['tissue'])
+# purse['tissue']=purse['tissue']+200
+# print(purse['tissue'])
+
+
+diclist=dict()
+diclist['trip-1']=[123.2,1231.2]
+print(diclist)
 # purse['candy']=3
 # purse['tissue']=55
 # print(purse)
