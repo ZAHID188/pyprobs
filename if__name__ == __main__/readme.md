@@ -21,6 +21,7 @@ print("test final module name-{}".format(__name__))
 running `test_final_module.py`
 
 ![Alt text](temp/image-1.png)
+<br>
 running `Final_module.py`
 
 ![Alt text](temp/image-2.png)
