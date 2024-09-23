@@ -1,3 +1,14 @@
 Data_exploration/dataexplorationVENV
 network/mVENV
 network/__pycache__
+Artificial_inteligence/Mvenv 
+Artificial_inteligence/__pycache__  
+# Ignore Python cache files
+__pycache__/
+
+# Ignore Visual Studio Code settings
+.vscode/
+
+# Other ignores can be added here
+*.pyc
+*.pyo
